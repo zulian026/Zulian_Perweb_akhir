@@ -50,7 +50,7 @@ const Home = () => {
               </Card>
             </Nav.Link>
 
-            <Nav.Link href="/Materidua">
+            <Nav.Link href="/Zulian_Perweb_akhir/Materidua">
               <Card style={{ width: '15rem' }}>
                 <Card.Body>
                   <Card.Title style={{ fontWeight: 'bold' }}>Belajar Ngoding #2</Card.Title>
