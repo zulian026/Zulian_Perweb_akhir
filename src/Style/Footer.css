@@ -1,0 +1,17 @@
+.container-footer a {
+    text-align: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.text-center{
+    margin: 30px;
+    text-align: center;
+}
+
+hr{
+    border: 1;
+    padding: 10px;
+    border-top: 1px solid #000000;
+    margin-top: 30px;
+}
