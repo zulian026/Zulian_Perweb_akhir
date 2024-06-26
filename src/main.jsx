@@ -10,7 +10,7 @@ import Kontendua from './Pages/Kontendua.jsx'
 
 const router = createBrowserRouter([
     {
-      path:"/Zulian_Perweb_akhir/",
+      path:"/",
       element: <App/>,
       children: [
         {
