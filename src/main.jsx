@@ -10,7 +10,7 @@ import Kontendua from './Pages/Kontendua.jsx'
 
 const router = createBrowserRouter([
     {
-      path:"/",
+      path:"/Zulian_Perweb_akhir/",
       element: <App/>,
       children: [
         {
@@ -25,12 +25,12 @@ const router = createBrowserRouter([
           path:"/Zulian_Perweb_akhir/Materidua",
           element: <Kontendua/>
         },
-      ]
-    }
-])
+      ],
+    },
+]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router}/>
   </React.StrictMode>,
-)
+);
