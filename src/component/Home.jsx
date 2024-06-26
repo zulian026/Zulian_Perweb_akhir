@@ -38,7 +38,7 @@ const Home = () => {
           <h2>List tutorial</h2>
           <p>Update Beberapa Tutorial</p>
           <div className="card-container" data-aos="zoom-in" data-aos-duration="1000">
-            <Nav.Link href="/Materi">
+            <Nav.Link href="/Zulian_Perweb_akhir/Materi">
               <Card style={{ width: '15rem' }}>
                 <Card.Body>
                   <Card.Title style={{ fontWeight: 'bold' }}>Belajar Ngoding #1</Card.Title>

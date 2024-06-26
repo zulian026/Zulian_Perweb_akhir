@@ -14,15 +14,15 @@ const router = createBrowserRouter([
       element: <App/>,
       children: [
         {
-          path:"/",
+          path:"/Zulian_Perweb_akhir",
           element: <HomePage/>
         },
         {
-          path:"/Materi",
+          path:"/Zulian_Perweb_akhir/Materi",
           element: <Konten/>
         },
         {
-          path:"/Materidua",
+          path:"/Zulian_Perweb_akhir/Materidua",
           element: <Kontendua/>
         },
       ]
