@@ -7,6 +7,8 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import HomePage from './Pages/HomePage.jsx';
 import Konten from './Pages/Konten.jsx';
 import Kontendua from './Pages/Kontendua.jsx'
+import ContactPages from './Pages/ContactPages.jsx';
+
 
 const router = createBrowserRouter([
     {
@@ -24,6 +26,10 @@ const router = createBrowserRouter([
         {
           path:"/Zulian_Perweb_akhir/Materidua",
           element: <Kontendua/>
+        },
+        {
+          path:"/Zulian_Perweb_akhir/Contact",
+          element: <ContactPages/>
         },
       ],
     },

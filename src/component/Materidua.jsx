@@ -1,40 +1,65 @@
-import React from 'react';
-import '../Style/Materi.css'
-
+import React from "react";
+import "../Style/Materi.css";
 
 function Materidua() {
   return (
-      <div className='kontainer-1'> 
-        <div className="box-1">
-          <h1>Belajar HTML 1: Pengertian dan Pengenalan HTML</h1>
-          <hr/>
-          <img src="https://img.freepik.com/free-photo/html-css-collage-concept_23-2150061955.jpg?ga=GA1.1.185333785.1719150752&semt=sph" alt="Gambar Tutorial CSS" className="gambar-tutorial" />
-          <p><span>Selamat datang di tutorial CSS!</span> Di sini kita akan membahas dasar-dasar CSS yang perlu diketahui oleh setiap pemula. CSS, atau Cascading Style Sheets, adalah bahasa yang digunakan untuk mengatur tampilan dan format dokumen HTML. Dengan CSS, Anda dapat mengubah warna teks, mengatur tata letak halaman, menambahkan margin dan padding, serta banyak lagi. Mari kita mulai dengan beberapa konsep dasar yang penting untuk dipahami.</p>
-          <h2>Pengertian CSS</h2>
-          <p>CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk mendesain tampilan halaman web. Dengan CSS, kita bisa mengatur layout, warna, dan font.</p>
-          <h2>Menambahkan CSS ke Halaman Web</h2>
-          <p>Ada beberapa cara untuk menambahkan CSS ke halaman web:</p>
-          <ul>
-             <li><strong>Inline CSS:</strong> Menambahkan style langsung pada elemen HTML menggunakan atribut 'style'.</li>
-             <li><strong>Internal CSS:</strong> Menempatkan CSS di dalam tag <code>&lt;style&gt;</code> di bagian head dokumen.</li>
-             <li><strong>External CSS:</strong> Menulis CSS di file terpisah dan menghubungkannya dengan HTML menggunakan tag <code>&lt;link&gt;</code>.</li>
-             <p>contoh untuk bagian file style.css nya</p>
-          </ul>
-          <h2>Contoh CSS Sederhana</h2>
-          <p>Berikut adalah contoh CSS yang mengubah warna background dan warna teks:</p>
-          <p>Dengan mengikuti tutorial ini, Anda akan mendapatkan pemahaman dasar tentang cara menggunakan CSS untuk meningkatkan tampilan halaman web Anda.</p>
-        </div>
-
-        <div className='box-2'>
-          <h2>List tutorial</h2>
-          <hr/>
-          <ol>
-            <a href='#'><li>1. Pengenalan html</li></a>
-            <a href='#'><li>2. Test</li></a>
-          </ol>
-        </div >
+    <div className="kontainer-1">
+      <div className="box-1">
+        <h1>Memulai HTML 2 :Struktur Dasar Pada HTML</h1>
+        <hr />
+        <img
+          src="https://img.freepik.com/free-vector/html-structure-concept-illustration_114360-5253.jpg?ga=GA1.1.185333785.1719150752&semt=ais_user"
+          alt="Gambar Struktur Dasar HTML"
+          className="gambar-tutorial"
+        />
+        <p>
+          <span>Selamat datang di tutorial Struktur Dasar HTML!</span> Di sini kita akan
+          membahas dasar-dasar struktur HTML yang perlu diketahui oleh setiap pemula.
+        </p>
+        <h2>Struktur Dasar HTML</h2>
+        <p>
+          Struktur dasar HTML terdiri dari beberapa elemen penting seperti
+          <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, <code>&lt;body&gt;</code>, dan lain-lain.
+          Elemen-elemen ini membantu mengatur struktur dan konten halaman web.
+        </p>
+        <h2>Tag HTML Dasar</h2>
+        <p>Ada beberapa tag HTML dasar yang perlu diketahui:</p>
+        <ul>
+          <li>
+            <strong>&lt;html&gt;:</strong> Tag ini adalah tag utama yang mengawali dan mengakhiri dokumen HTML.
+          </li>
+          <li>
+            <strong>&lt;head&gt;:</strong> Tag ini berisi informasi tentang dokumen HTML seperti judul, CSS, dan JavaScript.
+          </li>
+          <li>
+            <strong>&lt;body&gt;:</strong> Tag ini berisi konten utama dari halaman web.
+          </li>
+        </ul>
+        <h2>Contoh Struktur Dasar HTML</h2>
+        <p>
+          Berikut adalah contoh struktur dasar HTML:
+        </p>
+        <p>
+          Dengan mengikuti tutorial ini, Anda akan mendapatkan pemahaman dasar
+          tentang cara menggunakan HTML untuk meningkatkan struktur dan konten
+          halaman web Anda. Selain itu, Anda juga akan belajar tentang cara mengatur
+          tata letak dan gaya halaman web menggunakan CSS.
+        </p>
       </div>
-      
+
+      <div className="box-2">
+        <h2>List tutorial</h2>
+        <hr />
+        <ol>
+          <a href="/Zulian_Perweb_akhir/Materi">
+            <li>1. Pengenalan html</li>
+          </a>
+          <a href="/Zulian_Perweb_akhir/Materidua">
+            <li>2. Struktur Dasar html</li>
+          </a>
+        </ol>
+      </div>
+    </div>
   );
 }
 
