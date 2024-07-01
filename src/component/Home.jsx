@@ -86,6 +86,74 @@ const Home = () => {
                 </Card.Body>
               </Card>
             </Nav.Link>
+
+            <Nav.Link href="/Zulian_Perweb_akhir/Materidua">
+              <Card style={{ width: "15rem" }}>
+                <Card.Body>
+                  <Card.Title style={{ fontWeight: "bold" }}>
+                    Belajar Ngoding #3
+                  </Card.Title>
+                  <Card.Img
+                    src="https://img.freepik.com/free-vector/web-developers-courses-computer-programming-web-design-script-coding-study-computer-science-student-learning-interface-structure-components_335657-1161.jpg?ga=GA1.1.185333785.1719150752&semt=sph"
+                    style={{ width: "100%", height: "100%" }}
+                  />
+                  <Card.Text style={{ fontWeight: "bold" }}>
+                    Tutorial HTML #3 : Struktur dasar pada HTML
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Nav.Link>
+
+            <Nav.Link href="/Zulian_Perweb_akhir/Materidua">
+              <Card style={{ width: "15rem" }}>
+                <Card.Body>
+                  <Card.Title style={{ fontWeight: "bold" }}>
+                    Belajar Ngoding #4
+                  </Card.Title>
+                  <Card.Img
+                    src="https://img.freepik.com/free-vector/web-developers-courses-computer-programming-web-design-script-coding-study-computer-science-student-learning-interface-structure-components_335657-1161.jpg?ga=GA1.1.185333785.1719150752&semt=sph"
+                    style={{ width: "100%", height: "100%" }}
+                  />
+                  <Card.Text style={{ fontWeight: "bold" }}>
+                    Tutorial HTML #4 : Struktur dasar pada HTML
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Nav.Link>
+
+            <Nav.Link href="/Zulian_Perweb_akhir/Materidua">
+              <Card style={{ width: "15rem" }}>
+                <Card.Body>
+                  <Card.Title style={{ fontWeight: "bold" }}>
+                    Belajar Ngoding #4
+                  </Card.Title>
+                  <Card.Img
+                    src="https://img.freepik.com/free-vector/web-developers-courses-computer-programming-web-design-script-coding-study-computer-science-student-learning-interface-structure-components_335657-1161.jpg?ga=GA1.1.185333785.1719150752&semt=sph"
+                    style={{ width: "100%", height: "100%" }}
+                  />
+                  <Card.Text style={{ fontWeight: "bold" }}>
+                    Tutorial HTML #4 : Struktur dasar pada HTML
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Nav.Link>
+
+            <Nav.Link href="/Zulian_Perweb_akhir/Materidua">
+              <Card style={{ width: "15rem" }}>
+                <Card.Body>
+                  <Card.Title style={{ fontWeight: "bold" }}>
+                    Belajar Ngoding #5
+                  </Card.Title>
+                  <Card.Img
+                    src="https://img.freepik.com/free-vector/web-developers-courses-computer-programming-web-design-script-coding-study-computer-science-student-learning-interface-structure-components_335657-1161.jpg?ga=GA1.1.185333785.1719150752&semt=sph"
+                    style={{ width: "100%", height: "100%" }}
+                  />
+                  <Card.Text style={{ fontWeight: "bold" }}>
+                    Tutorial HTML #5 : Struktur dasar pada HTML
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Nav.Link>
           </div>
           <Footer />
         </div>
