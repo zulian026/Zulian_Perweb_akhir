@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import { useTypewriter, cursor, Cursor } from "react-simple-typewriter";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Nav from "react-bootstrap/Nav";
@@ -21,6 +22,13 @@ const Home = () => {
     }
   };
 
+  const [typeEffect] = useTypewriter({
+    words: ["Bareng."],
+    loop: {},
+    typeSpeed: 80,
+    deleteSpeed: 20,
+  });
+
   return (
     <div className="home-kontainer">
       <div className="boxx-1">
@@ -31,7 +39,10 @@ const Home = () => {
           data-aos-easing="ease-in-sine"
         >
           <h1>
-            <span>Ngoding Bareng</span>
+            Ngoding<span>{typeEffect}</span>
+            <span style={{ color: "blue" }}>
+              <Cursor />
+            </span>
             <br /> di Website Saya
           </h1>
           <p>
@@ -120,7 +131,6 @@ const Home = () => {
                 </Card.Body>
               </Card>
             </Nav.Link>
-           
           </div>
           <Footer />
         </div>

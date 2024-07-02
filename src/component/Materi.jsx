@@ -1,6 +1,7 @@
 import React from "react";
 import "../Style/Materi.css";
 import contoh1 from "../Image/1.png";
+import Contoh2 from "../Image/2.png";
 
 function Materi() {
   return (
@@ -55,6 +56,8 @@ function Materi() {
 
         <p>Berikut adalah contoh HTML untuk memanggil text Hello World</p>
         <img src={contoh1} alt="" />
+        <p>Dan ini adalah contoh tampilan dari Chrome nya</p>
+        <img src={Contoh2} alt="" />
         <p>
           Dengan mengikuti tutorial ini, Anda akan mendapatkan pemahaman dasar
           tentang cara menggunakan HTML untuk meningkatkan struktur dan konten

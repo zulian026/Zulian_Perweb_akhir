@@ -1,18 +1,25 @@
+.container-footer {
+  margin-right: 5%;
+    bottom: 0;
+}
+
 .container-footer a {
   text-align: center;
   gap: 10px;
   margin: 10px;
+  width: 2rem;
 }
 
 .text-center {
-  margin: 30px;
+  margin: 10px;
   text-align: center;
+  font-size: 15px;
 }
 
 .container-footer hr {
   border: 1;
   padding: 10px;
+  left: 0;
   border-top: 1px solid #000000;
-  margin-top: 30px;
-  width: auto;
+  width: 104%;
 }

@@ -11,21 +11,12 @@ const Contact = () => {
       <div className="cardcontact-container" data-aos="fade-up" duration="1000">
         <div className="left" data-aos="fade-left" duration="1000">
           <div className="left-container">
-            <h2>Tentang Kami</h2>
-            <p>
-              Website ini adalah blog untuk belajar dari paling dasar, dirancang
-              khusus untuk membantu pemula memahami konsep dasar dalam
-              pemrograman dan pengembangan web. Kami menyediakan tutorial, dan
-              sumber daya yang mudah diikuti untuk membantu Anda memulai
-              perjalanan belajar coding Anda.
-            </p>
-
             <br />
           </div>
         </div>
         <div className="right" data-aos="fade-right" duration="1000">
           <h2>Hubungi Kami</h2>
-          <form>
+          <form action="https://formspree.io/f/xdoqyjwy" method="POST">
             <div className="form-group">
               <label htmlFor="name">Nama:</label>
               <input

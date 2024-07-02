@@ -9,7 +9,7 @@
 
 .ms-auto {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   margin-left: auto;
 }
 
@@ -58,9 +58,14 @@
 }
 
 .navbar-brand span {
-  font-size: 25px;
+  font-size: 30px;
   color: rgb(13, 110, 253);
+  
 }
+
+
+
+
 
 /* Responsive design */
 @media (max-width: 991px) {
@@ -74,6 +79,7 @@
 
   .bi-house,
   .bi-person-rolodex,
+  .bi-file-earmark-person,
   .bi-cloud-download {
     display: none;
   }
