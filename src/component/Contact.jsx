@@ -11,11 +11,11 @@ const Contact = () => {
       <div className="cardcontact-container" data-aos="fade-up" duration="1000">
         <div className="left" data-aos="fade-left" duration="1000">
           <div className="left-container">
+            <h2>Hubungi Kami</h2>
             <br />
           </div>
         </div>
         <div className="right" data-aos="fade-right" duration="1000">
-          <h2>Hubungi Kami</h2>
           <form action="https://formspree.io/f/xdoqyjwy" method="POST">
             <div className="form-group">
               <label htmlFor="name">Nama:</label>
@@ -24,7 +24,8 @@ const Contact = () => {
                 id="name"
                 name="name"
                 required
-                placeholder="nama"
+                className="form-control"
+                placeholder="Nama"
               />
             </div>
             <div className="form-group">
@@ -34,7 +35,8 @@ const Contact = () => {
                 id="email"
                 name="email"
                 required
-                placeholder=" email"
+                className="form-control"
+                placeholder="Email"
               />
             </div>
             <div className="form-group">
@@ -43,11 +45,18 @@ const Contact = () => {
                 id="message"
                 name="message"
                 required
-                placeholder="message"
+                className="form-control"
+                placeholder="Pesan"
               ></textarea>
             </div>
-            <button type="submit">Kirim</button>
+            <button type="submit" className="btn btn-primary">
+              Kirim
+            </button>
           </form>
+
+          <div className="social-media">
+            <h3>Hubungi Kami di Sosial Media:</h3>
+          </div>
         </div>
       </div>
     </div>

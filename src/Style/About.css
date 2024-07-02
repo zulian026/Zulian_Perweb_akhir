@@ -32,6 +32,7 @@
   padding: 20px;
   font-style: normal;
   font-size: 21px;
+  color: #f8f9fa;
 }
 
 .left-container h2 {
@@ -55,15 +56,14 @@
 }
 
 .profile-section span {
-  color: blue;
+  color: #2a2f35;
   font-size: 30px;
   font-weight: 700;
 }
 
 .profile-section img {
-  width: 50%;
+  width: 100%;
   height: auto;
-  border-radius: 50%;
   margin-bottom: 20px;
   box-shadow: 0 4px 8px rgba(0, 123, 255, 0.1);
   transition: transform 0.3s ease;
@@ -81,6 +81,6 @@
   }
 
   .profile-section img {
-    width: 80%;
+    width: 0%;
   }
 }
