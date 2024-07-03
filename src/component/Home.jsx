@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { useTypewriter, cursor, Cursor } from "react-simple-typewriter";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Nav from "react-bootstrap/Nav";
@@ -23,9 +23,9 @@ const Home = () => {
   };
 
   const [typeEffect] = useTypewriter({
-    words: ["Bareng."],
+    words: ["ngoding", "bareng."],
     loop: {},
-    typeSpeed: 80,
+    typeSpeed: 100,
     deleteSpeed: 20,
   });
 
@@ -39,7 +39,7 @@ const Home = () => {
           data-aos-easing="ease-in-sine"
         >
           <h1>
-            Ngoding<span>{typeEffect}</span>
+            Belajar<span>{typeEffect}</span>
             <span style={{ color: "blue" }}>
               <Cursor />
             </span>
@@ -93,6 +93,23 @@ const Home = () => {
                   />
                   <Card.Text style={{ fontWeight: "bold" }}>
                     Tutorial HTML #2 : Struktur dasar pada HTML
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Nav.Link>
+
+            <Nav.Link href="/Zulian_Perweb_akhir/MateriTiga">
+              <Card style={{ width: "15rem" }}>
+                <Card.Body>
+                  <Card.Title style={{ fontWeight: "bold" }}>
+                    Belajar Ngoding #3
+                  </Card.Title>
+                  <Card.Img
+                    src="https://img.freepik.com/free-vector/web-developers-courses-computer-programming-web-design-script-coding-study-computer-science-student-learning-interface-structure-components_335657-1161.jpg?ga=GA1.1.185333785.1719150752&semt=sph"
+                    style={{ width: "100%", height: "100%" }}
+                  />
+                  <Card.Text style={{ fontWeight: "bold" }}>
+                    Tutorial HTML #3 : Struktur dasar pada HTML
                   </Card.Text>
                 </Card.Body>
               </Card>

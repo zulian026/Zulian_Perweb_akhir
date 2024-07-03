@@ -35,9 +35,11 @@ a {
   gap: 20px;
   list-style: none;
   padding: 2%;
-  margin-right: 10%;
+  margin-left: 5%;
   font-weight: 600;
   text-decoration: none;
+  text-align: justify;
+  line-height: 30px;
 }
 
 h1 {
@@ -126,6 +128,11 @@ span {
   font-size: 18px;
   line-height: 26px;
   color: rgb(30, 41, 59);
+}
+
+.Contoh-3 {
+  width: 100%;
+  height: auto;
 }
 
 /* Responsive Design */

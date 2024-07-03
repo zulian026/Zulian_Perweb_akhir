@@ -57,7 +57,7 @@ function Navigasi() {
             </Nav.Link>
 
             <Nav.Link
-              href="https://drive.google.com/file/d/1vOH13LwRHo34HdyR7bzNlKCo3czMMbwo/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Ags5c2un9E1JYts_90Y2QGWAel3qgxSX/view?usp=sharing"
               target="_blank"
               className="nav-item"
             >

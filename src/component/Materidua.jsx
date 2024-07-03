@@ -1,6 +1,7 @@
 import React from "react";
 import "../Style/Materi.css";
 import Contoh3 from "../Image/3.png";
+import Contoh4 from "../Image/4.png";
 
 function Materidua() {
   return (
@@ -77,7 +78,9 @@ function Materidua() {
         </ul>
         <h2>Contoh Struktur Dasar HTML</h2>
         <p>Berikut adalah contoh struktur dasar HTML:</p>
-        <img src={Contoh3} alt="" />
+        <img src={Contoh3} alt="" className="Contoh-3" />
+        <p>Hasl dari Code html nya</p>
+        <img src={Contoh4} alt="" />
         <p>
           Dengan mengikuti tutorial ini, Anda akan mendapatkan pemahaman dasar
           tentang cara menggunakan HTML untuk meningkatkan struktur dan konten
@@ -95,6 +98,9 @@ function Materidua() {
           </a>
           <a href="/Zulian_Perweb_akhir/Materidua">
             <li>2. Struktur Dasar html</li>
+          </a>
+          <a href="/Zulian_Perweb_akhir/Materitiga">
+            <li>3. Paragraf Pada html</li>
           </a>
         </ol>
       </div>

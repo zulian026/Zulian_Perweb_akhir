@@ -51,12 +51,10 @@ function Materi() {
           <li>Microsoft Edge</li>
           <li>Safari</li>
         </ul>
-
         <h2>Contoh HTML Sederhana</h2>
-
         <p>Berikut adalah contoh HTML untuk memanggil text Hello World</p>
-        <img src={contoh1} alt="" />
-        <p>Dan ini adalah contoh tampilan dari Chrome nya</p>
+        <img src={contoh1} alt="" />'
+        <p>Dan ini adalah contoh tampilan dari Chrome nya</p>/
         <img src={Contoh2} alt="" />
         <p>
           Dengan mengikuti tutorial ini, Anda akan mendapatkan pemahaman dasar
@@ -74,6 +72,9 @@ function Materi() {
           </a>
           <a href="/Zulian_Perweb_akhir/Materidua">
             <li>2. Struktur Dasar html</li>
+          </a>
+          <a href="/Zulian_Perweb_akhir/Materitiga">
+            <li>3. Paragraf Pada html</li>
           </a>
         </ol>
       </div>
