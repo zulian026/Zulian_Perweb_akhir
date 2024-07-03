@@ -10,7 +10,7 @@
   background-color: #020617;
   color: white;
 }
-  
+
 .cardcontact-container {
   display: flex;
   justify-content: space-between;
@@ -32,6 +32,7 @@
 }
 
 .left-container h2 {
+  color: white ;
   font-size: 24px;
   margin-bottom: 10px;
 }
@@ -77,4 +78,3 @@ button[type="submit"]:hover {
   margin-top: 5rem;
   display: flex;
 }
-
