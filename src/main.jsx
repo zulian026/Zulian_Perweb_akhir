@@ -10,6 +10,7 @@ import Kontendua from "./Pages/Kontendua.jsx";
 import ContactPages from "./Pages/ContactPages.jsx";
 import AboutPages from "./Pages/AboutPages.jsx";
 import Kontentigas from "./Pages/Kontentigas.jsx";
+import Ajakpages from "./Pages/Ajakpages.jsx";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: "/Zulian_Perweb_akhir/Materitiga",
         element: <Kontentigas />,
+      },
+      {
+        path: "/Zulian_Perweb_akhir/Ajax",
+        element: <Ajakpages />,
       },
     ],
   },

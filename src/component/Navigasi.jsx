@@ -74,6 +74,10 @@ function Navigasi() {
               </svg>
               <span className="nav-text">Download</span>
             </Nav.Link>
+
+            <Nav.Link href="/Zulian_Perweb_akhir/Ajax" className="nav-item">
+              <span className="nav-text">Ajak</span>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
